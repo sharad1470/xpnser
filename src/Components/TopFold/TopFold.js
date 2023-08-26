@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
 import './TopFold.css';
 import { Link } from 'react-router-dom';
-import { useDispatch } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import { searchExpense } from '../redux/actions/Actions';
 const TopFold = () => {
-    const [query, setQuery]=useState();
+    const stateQuery=useSelector((state)=>state.expenses.query);
+    const [query, setQuery]=useState(stateQuery);
     const dispatch=useDispatch();
 
     const handleQuery=(e)=>{

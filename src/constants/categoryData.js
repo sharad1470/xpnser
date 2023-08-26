@@ -2,37 +2,37 @@ export const categories=[
     {
         id:1,
         title:"Education",
-       // icon:<i class="fa-solid fa-graduation-cap"></i>,
+        icon:"https://img.freepik.com/free-photo/3d-illustration-academic-hat-with-golden-tassel_107791-16182.jpg",
         color:"#A95EC2"
     },
     {
         id:2,
         title:"Healthcare",
-       // icon:<i class="fa-regular fa-hospital"></i>,
+       icon:'./images/hos.avif',
         color:"#FF768A"
     },
     {
         id:3,
         title:"Shopping",
-       // icon:<i class="fa-solid fa-cart-shopping"></i>,
+        icon:"https://img.freepik.com/premium-photo/shopping-cart-full-food-isolated-white-grocery-food-store-concept_708636-706.jpg",
         color:'#EC60AB'
     },
     {
         id:4,
         title:"Food",
-        //icon:<i class="fa-solid fa-bowl-food"></i>,
+        icon:"https://media.istockphoto.com/id/1455160776/photo/selection-of-healthy-food.jpg?b=1&s=612x612&w=0&k=20&c=NTYWxKO7nEgULBoogV4NokGFvy70ypO042DjNGf535Q=",
         color:'#FF9E6D'
     },
     {
         id:5,
         title:"Gym",
-        //icon:<i className="fa-solid fa-dumbbell"></i>,
+        icon:"https://img.freepik.com/free-photo/strong-man-training-gym_1303-23478.jpg?w=2000",
         color:'#00FFFF'
     },
     {
         id:6,
         title:"other",
-       // icon:<i class="fa-solid fa-house"></i>,
+        icon:"https://images.unsplash.com/photo-1562329265-95a6d7a83440?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8dGhlYXRlcnxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80",
         color:'#89CFF0'
     }
 

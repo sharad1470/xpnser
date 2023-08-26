@@ -15,7 +15,7 @@ const Card = ({ item ,notifySuccess}) => {
         style={{borderRight:`6px solid ${item.category.color}`}}
         >
             <div className='card-icon'>
-                {item.category.icon}
+                <img src={item.category.icon} alt=""/>
                 
             </div>
 

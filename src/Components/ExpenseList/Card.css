@@ -36,4 +36,10 @@
 }
 .card-icon{
     font-size: 20px;
+    width:50px;
+}
+.card-icon img{
+    height: 60px;
+    width: inherit;
+    object-fit: cover;
 }

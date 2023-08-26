@@ -8,7 +8,7 @@ const Header = () => {
                     Xpnser<i class="fa-regular fa-credit-card"></i>
                 </div>
                 <div className='header-button'>
-                   <a href=''>
+                   <a href='https://github.com/sharad1470/'>
                   <i class="devicon-github-original"></i>Star
                   </a> 
                 </div>
